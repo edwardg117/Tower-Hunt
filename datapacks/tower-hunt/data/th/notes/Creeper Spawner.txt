@@ -1,0 +1,5 @@
+Creeper:
+{id:"minecraft:creeper",Health:40f,powered:1b,ExplosionRadius:20b,Fuse:10,CustomName:'{"text":"Sentient Moss"}',Attributes:[{Name:generic.follow_range,Base:40},{Name:generic.attack_damage,Base:40}]}
+
+Command Block:
+setblock ~ ~ ~ spawner{SpawnCount:1,SpawnRange:4,Delay:0,MinSpawnDelay:10,MaxSpawnDelay:20,MaxNearbyEntities:2,RequiredPlayerRange:5,SpawnData:{id:"minecraft:creeper",Health:40f,powered:1b,ExplosionRadius:20b,Fuse:10,CustomName:'{"text":"Sentient Moss"}',Attributes:[{Name:generic.follow_range,Base:40},{Name:generic.attack_damage,Base:40}]}} replace

@@ -1,0 +1,5 @@
+Witch:
+{id:"minecraft:witch",DeathLootTable:"th:entities/tower_enchanter",Health:50f,CustomName:'{"text":"Tower Enchanter"}',Attributes:[{Name:generic.max_health,Base:50}]}
+
+Command Block:
+setblock ~ ~ ~ spawner{SpawnCount:1,SpawnRange:4,Delay:0,MinSpawnDelay:20,MaxSpawnDelay:40,MaxNearbyEntities:3,RequiredPlayerRange:10,SpawnData:{id:"minecraft:witch",DeathLootTable:"th:entities/tower_enchanter",Health:50f,CustomName:'{"text":"Tower Enchanter"}',Attributes:[{Name:generic.max_health,Base:50}]}} replace
