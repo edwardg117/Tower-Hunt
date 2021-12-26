@@ -58,7 +58,7 @@ scoreboard objectives add tower dummy "Tower Number"
 scoreboard players set current_tower tower 0
 
 scoreboard objectives add settings dummy "Settings"
-scoreboard players set build_limit settings 255
+scoreboard players set build_limit settings 319
 scoreboard players set room_height settings 7
 scoreboard players set map_size settings 5000
 

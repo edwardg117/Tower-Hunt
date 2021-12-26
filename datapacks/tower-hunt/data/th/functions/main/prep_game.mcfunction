@@ -1,3 +1,4 @@
+difficulty hard
 # Place Portal Frame
 execute at @e[tag=height_finder] run fill ~-6 ~ ~-6 ~6 ~3 ~6 minecraft:air destroy
 execute at @e[tag=height_finder] run fill ~-6 ~ ~-6 ~6 ~ ~6 minecraft:stone_bricks
