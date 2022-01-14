@@ -61,6 +61,7 @@ scoreboard objectives add settings dummy "Settings"
 scoreboard players set build_limit settings 319
 scoreboard players set room_height settings 7
 scoreboard players set map_size settings 5000
+scoreboard players set slower_gen settings 0
 
 scoreboard objectives add vars dummy "Variables"
 

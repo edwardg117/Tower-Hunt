@@ -66,4 +66,5 @@ execute at @e[tag=height_finder] run setblock ~-5 ~ ~3 minecraft:sea_lantern rep
 function th:main/spread_towers
 
 # Generates the towers
-execute as @e[tag=tower] run function th:tower/make_tower
+execute if score slower_gen settings matches 0 as @e[tag=tower] run function th:tower/make_tower
+execute if score slower_gen settings matches 1.. run function th:main/slow_tower_gen
